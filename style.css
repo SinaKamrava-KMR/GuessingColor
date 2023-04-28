@@ -1,0 +1,106 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(35, 35, 35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container{
+  width: 80%;
+  height: 550px;
+  background-color: rgb(23, 24, 30);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgb(29, 26, 26);
+  overflow: hidden;
+}
+
+.header{
+  background-color: rgb(173, 90, 251);
+  width: 100%;
+  height: 200px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.header p:first-child ,p:last-child{
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.color-text{
+  font-weight: bold;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+.menuBar{
+  width: 100%;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-evenly;
+ 
+  font-size: 18px;
+  color: rgb(83, 135, 255);
+}
+.menuBar span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding-inline: 20px;
+}
+.menuBar span:active{
+  background-color: cornflowerblue;
+  color: white;
+}
+.menuBar p {
+  text-transform: uppercase;
+}
+
+.menuBar div:last-child{
+  display: flex;
+  
+}
+
+.menuBar div:last-child p{
+  padding-inline: 20px;
+  font-size: 18px;
+  
+}
+
+.active{
+  background-color: cornflowerblue;
+  color: white;
+}
+
+
+#color-box{
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+
+}
+
+.box{
+  width: 150px;
+  height: 150px;
+  background-color: rgb(243, 108, 63);
+  border-radius: 10px;
+}
